@@ -1953,10 +1953,18 @@ h1, h2, h3, h4, h5, h6 {
   .omega .omega-blue_block {
     position: absolute;
     left: 30px;
-    top: 170px;
+    top: 200px;
     background-color: #0083b1;
     width: 500px;
     height: 130px; }
+
+.crowns .feedback {
+  padding-top: 100px; }
+  .crowns .feedback .small {
+    text-decoration: line-through;
+    font-size: 19px; }
+  .crowns .feedback .feedback-text_list ul {
+    margin: 10px 0 30px; }
 
 @media only screen and (max-width: 1200px) {
   .banner-slider-bg1 {
