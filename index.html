@@ -25,6 +25,24 @@
 		<div class="banner-wrap">
 			<header class="main-header">
 				<div class="container">
+					<div class="main-header-toggle"></div>
+					<menu class="main-header-menu">
+						<li>
+							<a href="#">Lorem ipsum</a>
+						</li>
+						<li>
+							<a href="#">Lorem ipsum</a>
+						</li>
+						<li>
+							<a href="#">Lorem ipsum</a>
+						</li>
+						<li>
+							<a href="#">Lorem ipsum</a>
+						</li>
+						<li>
+							<a href="#">Lorem ipsum</a>
+						</li>
+					</menu>
 					<div class="main-header-wrap">
 						<a href="#" class="main-header-logo">
 							<div class="main-header-logo-img">
@@ -47,11 +65,12 @@
 			</header>
 			<section class="banner">
 				<div class="container">
-					<form action="#" class="banner-form main-form">
+					<form action="#" class="banner-form main-form" id="form1">
 						<h3>Запишитесь на бесплатную консультацию</h3>
 						<div class="main-form-wrap">
 							<label class="label">
-								<input class="input input-tel" type="tel" required placeholder="+7 (___) ___-____">
+								<input name="tel" class="input input-tel" type="tel" required
+									placeholder="+7 (___) ___-____">
 							</label>
 							<button type="submit" class="btn2">Записаться</button>
 						</div>
@@ -69,24 +88,6 @@
 											<h1>Стоматология <b>Омега</b> в Нижнем Новгороде</h1>
 										</div>
 										<div class="banner-list">
-											<li class="banner-item">
-												<i class="banner-item-img">
-													<img src="src/img/banner-item1.png" alt="">
-												</i>
-												Самая удобная оплата
-											</li>
-											<li class="banner-item">
-												<i class="banner-item-img">
-													<img src="src/img/banner-item2.png" alt="">
-												</i>
-												0% рассрочка при 0% первоначального взноса
-											</li>
-											<li class="banner-item">
-												<i class="banner-item-img">
-													<img src="src/img/banner-item3.png" alt="">
-												</i>
-												Гарантия на работы 24 месяца
-											</li>
 											<li class="banner-item">
 												<i class="banner-item-img">
 													<img src="src/img/banner-item1.png" alt="">
@@ -186,148 +187,154 @@
 			<section class="directions">
 				<div class="container">
 					<h2>Направления клиники</h2>
-					<div class="directions-list">
-						<div class="directions-item">
-							<div class="directions-item-title">
-								<i>
-									<img src="src/img/directions-item1.png" alt="">
-								</i>
-								<h3>Протоезирование зубов</h3>
+					<div class=" swiper-container_block_one">
+						<div class="directions-list remove swiper-wrapper">
+							<div class="directions-item swiper-slide ">
+								<div class="directions-item-title">
+									<i>
+										<img src="src/img/directions-item1.png" alt="">
+									</i>
+									<h3>Протоезирование зубов</h3>
+								</div>
+								<ul>
+									<li>
+										<a class="fancybox" href="#popup2">Съемные протезы</a>
+									</li>
+									<li>
+										<a class="fancybox" href="#popup2">Бюгельные протезы</a>
+									</li>
+									<li>
+										<a class="fancybox" href="#popup2">Коронки</a>
+									</li>
+									<li>
+										<a class="fancybox" href="#popup2">Мостовидные протезы</a>
+									</li>
+									<li>
+										<a class="fancybox" href="#popup2">Виниры</a>
+									</li>
+								</ul>
 							</div>
-							<ul>
-								<li>
-									<a class="fancybox" href="#popup2">Съемные протезы</a>
-								</li>
-								<li>
-									<a class="fancybox" href="#popup2">Бюгельные протезы</a>
-								</li>
-								<li>
-									<a class="fancybox" href="#popup2">Коронки</a>
-								</li>
-								<li>
-									<a class="fancybox" href="#popup2">Мостовидные протезы</a>
-								</li>
-								<li>
-									<a class="fancybox" href="#popup2">Виниры</a>
-								</li>
-							</ul>
-						</div>
-						<div class="directions-item">
-							<div class="directions-item-title">
-								<i>
-									<img src="src/img/directions-item2.png" alt="">
-								</i>
-								<h3>Имплантация зубов</h3>
+							<div class="directions-item swiper-slide">
+								<div class="directions-item-title">
+									<i>
+										<img src="src/img/directions-item2.png" alt="">
+									</i>
+									<h3>Имплантация зубов</h3>
+								</div>
+								<ul>
+									<li>
+										<a class="fancybox" href="#popup2">Классическая имплантация</a>
+									</li>
+									<li>
+										<a class="fancybox" href="#popup2">Одномоментная имплантация</a>
+									</li>
+									<li>
+										<a class="fancybox" href="#popup2">Экспресс имплантация</a>
+									</li>
+									<li>
+										<a class="fancybox" href="#popup2">Имплантация "All on 4"</a>
+									</li>
+									<li>
+										<a class="fancybox" href="#popup2">Имплантация "All on 6"</a>
+									</li>
+								</ul>
 							</div>
-							<ul>
-								<li>
-									<a class="fancybox" href="#popup2">Классическая имплантация</a>
-								</li>
-								<li>
-									<a class="fancybox" href="#popup2">Одномоментная имплантация</a>
-								</li>
-								<li>
-									<a class="fancybox" href="#popup2">Экспресс имплантация</a>
-								</li>
-								<li>
-									<a class="fancybox" href="#popup2">Имплантация "All on 4"</a>
-								</li>
-								<li>
-									<a class="fancybox" href="#popup2">Имплантация "All on 6"</a>
-								</li>
-							</ul>
-						</div>
-						<div class="directions-item">
-							<div class="directions-item-title">
-								<i>
-									<img src="src/img/directions-item3.png" alt="">
-								</i>
-								<h3>Исправление прикуса</h3>
+							<div class="directions-item swiper-slide">
+								<div class="directions-item-title">
+									<i>
+										<img src="src/img/directions-item3.png" alt="">
+									</i>
+									<h3>Исправление прикуса</h3>
+								</div>
+								<ul>
+									<li>
+										<a class="fancybox" href="#popup2">Металлические брекеты</a>
+									</li>
+									<li>
+										<a class="fancybox" href="#popup2">Керамические брекеты</a>
+									</li>
+									<li>
+										<a class="fancybox" href="#popup2">Сапфировые брекеты</a>
+									</li>
+									<li>
+										<a class="fancybox" href="#popup2">Лингвальные брекеты</a>
+									</li>
+									<li>
+										<a class="fancybox" href="#popup2">Каппы</a>
+									</li>
+								</ul>
 							</div>
-							<ul>
-								<li>
-									<a class="fancybox" href="#popup2">Металлические брекеты</a>
-								</li>
-								<li>
-									<a class="fancybox" href="#popup2">Керамические брекеты</a>
-								</li>
-								<li>
-									<a class="fancybox" href="#popup2">Сапфировые брекеты</a>
-								</li>
-								<li>
-									<a class="fancybox" href="#popup2">Лингвальные брекеты</a>
-								</li>
-								<li>
-									<a class="fancybox" href="#popup2">Каппы</a>
-								</li>
-							</ul>
-						</div>
-						<div class="directions-item">
-							<div class="directions-item-title">
-								<i>
-									<img src="src/img/directions-item4.png" alt="">
-								</i>
-								<h3>Удаление зубов</h3>
+							<div class="directions-item swiper-slide">
+								<div class="directions-item-title">
+									<i>
+										<img src="src/img/directions-item4.png" alt="">
+									</i>
+									<h3>Удаление зубов</h3>
+								</div>
+								<ul>
+									<li>
+										<a class="fancybox" href="#popup2">Сложное удаление</a>
+									</li>
+									<li>
+										<a class="fancybox" href="#popup2">Зубов мудрости</a>
+									</li>
+									<li>
+										<a class="fancybox" href="#popup2">Ретенированных зубов</a>
+									</li>
+									<li>
+										<a class="fancybox" href="#popup2">Дистопированных зубов</a>
+									</li>
+									<li>
+										<a class="fancybox" href="#popup2">Множественное удаление</a>
+									</li>
+								</ul>
 							</div>
-							<ul>
-								<li>
-									<a class="fancybox" href="#popup2">Сложное удаление</a>
-								</li>
-								<li>
-									<a class="fancybox" href="#popup2">Зубов мудрости</a>
-								</li>
-								<li>
-									<a class="fancybox" href="#popup2">Ретенированных зубов</a>
-								</li>
-								<li>
-									<a class="fancybox" href="#popup2">Дистопированных зубов</a>
-								</li>
-								<li>
-									<a class="fancybox" href="#popup2">Множественное удаление</a>
-								</li>
-							</ul>
-						</div>
-						<div class="directions-item">
-							<div class="directions-item-title">
-								<i>
-									<img src="src/img/directions-item5.png" alt="">
-								</i>
-								<h3>Профгигиена</h3>
+							<div class="directions-item swiper-slide">
+								<div class="directions-item-title">
+									<i>
+										<img src="src/img/directions-item5.png" alt="">
+									</i>
+									<h3>Профгигиена</h3>
+								</div>
+								<ul>
+									<li>
+										<a class="fancybox" href="#popup2">AIR Flow чистка</a>
+									</li>
+									<li>
+										<a class="fancybox" href="#popup2">1Ультразвуковая чистка11</a>
+									</li>
+									<li>
+										<a class="fancybox" href="#popup2">Реминерализация зубов</a>
+									</li>
+								</ul>
 							</div>
-							<ul>
-								<li>
-									<a class="fancybox" href="#popup2">AIR Flow чистка</a>
-								</li>
-								<li>
-									<a class="fancybox" href="#popup2">1Ультразвуковая чистка11</a>
-								</li>
-								<li>
-									<a class="fancybox" href="#popup2">Реминерализация зубов</a>
-								</li>
-							</ul>
-						</div>
-						<div class="directions-item">
-							<div class="directions-item-title">
-								<i>
-									<img src="src/img/directions-item6.png" alt="">
-								</i>
-								<h3>Лечение зубов</h3>
+							<div class="directions-item swiper-slide">
+								<div class="directions-item-title">
+									<i>
+										<img src="src/img/directions-item6.png" alt="">
+									</i>
+									<h3>Лечение зубов</h3>
+								</div>
+								<ul>
+									<li>
+										<a class="fancybox" href="#popup2">Лечение кариеса</a>
+									</li>
+									<li>
+										<a class="fancybox" href="#popup2">Лечение пульпита</a>
+									</li>
+									<li>
+										<a class="fancybox" href="#popup2">Лечение переодонтита</a>
+									</li>
+									<li>
+										<a class="fancybox" href="#popup2">Эстетическая реставрация</a>
+									</li>
+								</ul>
 							</div>
-							<ul>
-								<li>
-									<a class="fancybox" href="#popup2">Лечение кариеса</a>
-								</li>
-								<li>
-									<a class="fancybox" href="#popup2">Лечение пульпита</a>
-								</li>
-								<li>
-									<a class="fancybox" href="#popup2">Лечение переодонтита</a>
-								</li>
-								<li>
-									<a class="fancybox" href="#popup2">Эстетическая реставрация</a>
-								</li>
-							</ul>
 						</div>
+					</div>
+					<div class="aboutClinic-slider-nav directions-list-nav">
+						<div class="swiper-button-prev swiper-button-prev_block_one swiper-button-prev-style2"></div>
+						<div class="swiper-button-next swiper-button-next_block_one swiper-button-next-style2"></div>
 					</div>
 				</div>
 			</section>
@@ -384,31 +391,51 @@
 									<span>рассрочка <br> без переплат</span>
 								</li>
 							</ul>
-							<ul class="aboutClinic-list2">
-								<li>Процедуры выполняются безболезненно</li>
-								<li>Работа выполняется деликатно и точно.</li>
-								<li>Высококвалифициро-ванные специалисты</li>
-								<li>Бесплатная парковка</li>
-							</ul>
+							<div class="aboutClinic-list_box">
+								<ul class="aboutClinic-list2 right">
+									<li>
+										<p>
+											Процедуры <br> выполняются<br> безболезненно
+										</p>
+									</li>
+									<li class="list2">
+										<p>
+											Работа выполняется <br>деликатно и точно.
+										</p>
+									</li>
+								</ul>
+								<ul class="aboutClinic-list2 left">
+									<li class="list2">
+										<p>
+											Высококвалифициро-<br>ванные специалисты
+										</p>
+									</li>
+									<li>
+										<p>
+											Бесплатная<br> парковка
+										</p>
+									</li>
+								</ul>
+							</div>
 						</div>
 						<div class="aboutClinic-wrap2">
 							<div class="aboutClinic-slider">
 								<div class="swiper-container swiper-container2">
 									<div class="swiper-wrapper">
 										<div class="swiper-slide">
-											<div class="aboutClinic-item">
+											<a href="src/img/aboutClinic-item1.jpg" class="aboutClinic-item fancybox">
 												<img src="src/img/aboutClinic-item1.jpg" alt="">
-											</div>
+											</a>
 										</div>
 										<div class="swiper-slide">
-											<div class="aboutClinic-item">
-												<img src="src/img/aboutClinic-item1.jpg" alt="">
-											</div>
+											<a href="src/img/aboutClinic-item2.jpg" class="aboutClinic-item fancybox">
+												<img src="src/img/aboutClinic-item2.jpg" alt="">
+											</a>
 										</div>
 										<div class="swiper-slide">
-											<div class="aboutClinic-item">
-												<img src="src/img/aboutClinic-item1.jpg" alt="">
-											</div>
+											<a href="src/img/aboutClinic-item3.jpg" class="aboutClinic-item fancybox">
+												<img src="src/img/aboutClinic-item3.jpg" alt="">
+											</a>
 										</div>
 									</div>
 								</div>
@@ -459,8 +486,10 @@
 								</div>
 							</div>
 						</div>
-						<div class="swiper-button-prev swiper-button-prev3 swiper-button-prev-style2"></div>
-						<div class="swiper-button-next swiper-button-next3 swiper-button-next-style2"></div>
+						<div class="gallery_nav">
+							<div class="swiper-button-prev swiper-button-prev3 swiper-button-prev-style2"></div>
+							<div class="swiper-button-next swiper-button-next3 swiper-button-next-style2"></div>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -501,7 +530,7 @@
 													</div>
 													<div class="cases-item-doctor-info-text">
 														<span>Врач:</span>
-														<b>Киселёв <br> Михаил Андреевич</b>
+														<b>Лагутин <br> Дмитрий Олегович</b>
 													</div>
 												</div>
 												<a href="#popup1" class="btn2 fancybox">Записаться на прием</a>
@@ -542,7 +571,7 @@
 													</div>
 													<div class="cases-item-doctor-info-text">
 														<span>Врач:</span>
-														<b>Киселёв <br> Михаил Андреевич</b>
+														<b>Лагутин <br> Дмитрий Олегович</b>
 													</div>
 												</div>
 												<a href="#popup1" class="btn2 fancybox">Записаться на прием</a>
@@ -583,7 +612,7 @@
 													</div>
 													<div class="cases-item-doctor-info-text">
 														<span>Врач:</span>
-														<b>Киселёв <br> Михаил Андреевич</b>
+														<b>Лагутин <br> Дмитрий Олегович</b>
 													</div>
 												</div>
 												<a href="#popup1" class="btn2 fancybox">Записаться на прием</a>
@@ -635,58 +664,17 @@
 								</div>
 								<div class="cost-main-list-wrap">
 									<div class="cost-item">
-										<h3>Хирургия: Удаление зубов</h3>
+										<h3>Рентген</h3>
 										<ul class="cost-list">
 											<li>
 												<span>
-													Атравматичное удаление с сохранением лунки зуба
-													<i>акция</i>
+													Рентгенографический снимок
 												</span>
-												<b>3 000,00</b>
+												<b>100,00</b>
 											</li>
 											<li>
-												<span>Удаление молочного зуба</span>
-												<b>700,00</b>
-											</li>
-											<li>
-												<span>Удаление зуба (сложное) с применением элеватора</span>
-												<b>2 750,00</b>
-											</li>
-											<li>
-												<span>Удаление зуба (1 степень сложности)</span>
-												<b>1 550,00</b>
-											</li>
-											<li>
-												<span>
-													Удаление зподвижного постоянного зуба
-													<i>акция</i>
-												</span>
-												<b>900,00</b>
-											</li>
-										</ul>
-									</div>
-									<div class="cost-item">
-										<h3>Хирургия: Операция на мягких тканях</h3>
-										<ul class="cost-list">
-											<li>
-												<span>Пластика тяжа слизистой оболочки полости рта</span>
-												<b>3 500,00</b>
-											</li>
-											<li>
-												<span>Пластика уздечки верхней, нижней губы. Языка</span>
-												<b>2 000,00</b>
-											</li>
-											<li>
-												<span>Вестибулопластика</span>
-												<b>5 000,00</b>
-											</li>
-											<li>
-												<span>Внутриротовой разрез с дренированием раны</span>
-												<b>1 100,00</b>
-											</li>
-											<li>
-												<span>Иссечение капюшона</span>
-												<b>800,00</b>
+												<span>ОПТГ</span>
+												<b>300,00</b>
 											</li>
 										</ul>
 									</div>
@@ -701,58 +689,13 @@
 								</div>
 								<div class="cost-main-list-wrap">
 									<div class="cost-item">
-										<h3>Хирургия: Удаление зубов</h3>
+										<h3>Анестезия</h3>
 										<ul class="cost-list">
 											<li>
 												<span>
-													Атравматичное удаление с сохранением лунки зуба
-													<i>акция</i>
+													Анестезия (инфильтрационная, проводникая)
 												</span>
-												<b>3 000,00</b>
-											</li>
-											<li>
-												<span>Удаление молочного зуба</span>
-												<b>700,00</b>
-											</li>
-											<li>
-												<span>Удаление зуба (сложное) с применением элеватора</span>
-												<b>2 750,00</b>
-											</li>
-											<li>
-												<span>Удаление зуба (1 степень сложности)</span>
-												<b>1 550,00</b>
-											</li>
-											<li>
-												<span>
-													Удаление зподвижного постоянного зуба
-													<i>акция</i>
-												</span>
-												<b>900,00</b>
-											</li>
-										</ul>
-									</div>
-									<div class="cost-item">
-										<h3>Хирургия: Операция на мягких тканях</h3>
-										<ul class="cost-list">
-											<li>
-												<span>Пластика тяжа слизистой оболочки полости рта</span>
-												<b>3 500,00</b>
-											</li>
-											<li>
-												<span>Пластика уздечки верхней, нижней губы. Языка</span>
-												<b>2 000,00</b>
-											</li>
-											<li>
-												<span>Вестибулопластика</span>
-												<b>5 000,00</b>
-											</li>
-											<li>
-												<span>Внутриротовой разрез с дренированием раны</span>
-												<b>1 100,00</b>
-											</li>
-											<li>
-												<span>Иссечение капюшона</span>
-												<b>800,00</b>
+												<b>390,00</b>
 											</li>
 										</ul>
 									</div>
@@ -767,58 +710,61 @@
 								</div>
 								<div class="cost-main-list-wrap">
 									<div class="cost-item">
-										<h3>Хирургия: Удаление зубов</h3>
+										<h3>Профилактика и гигиена</h3>
 										<ul class="cost-list">
 											<li>
 												<span>
-													Атравматичное удаление с сохранением лунки зуба
+													Снятие твердых зубных отложений ультразвуком (2 челюсти)
 													<i>акция</i>
 												</span>
+												<b>1 000,00</b>
+											</li>
+											<li>
+												<span>Снятие зубных отложений системой Air-Flow (2 челюсти)</span>
+												<b>2 000,00</b>
+											</li>
+											<li>
+												<span>Комплексная проф гигиена (ультразвук + аэр фло + полировка)</span>
 												<b>3 000,00</b>
-											</li>
-											<li>
-												<span>Удаление молочного зуба</span>
-												<b>700,00</b>
-											</li>
-											<li>
-												<span>Удаление зуба (сложное) с применением элеватора</span>
-												<b>2 750,00</b>
-											</li>
-											<li>
-												<span>Удаление зуба (1 степень сложности)</span>
-												<b>1 550,00</b>
-											</li>
-											<li>
-												<span>
-													Удаление зподвижного постоянного зуба
-													<i>акция</i>
-												</span>
-												<b>900,00</b>
 											</li>
 										</ul>
 									</div>
 									<div class="cost-item">
-										<h3>Хирургия: Операция на мягких тканях</h3>
+										<h3>Терапия: Лечение кариеса зубов</h3>
 										<ul class="cost-list">
 											<li>
-												<span>Пластика тяжа слизистой оболочки полости рта</span>
-												<b>3 500,00</b>
+												<span>Лечение кариеса с пломбой</span>
+												<b>от 2 000,00</b>
+											</li>
+										</ul>
+									</div>
+									<div class="cost-item">
+										<h3>Терапия: Лечение пульпита</h3>
+										<ul class="cost-list">
+											<li>
+												<span>Лечение пульпита с пломбой</span>
+												<b>от 3 600,00</b>
+											</li>
+										</ul>
+									</div>
+									<div class="cost-item">
+										<h3>Терапия: Постановка пломбы</h3>
+										<ul class="cost-list">
+											<li>
+												<span>Пломба Tetric Evo-Ceram</span>
+												<b>3 000,00</b>
 											</li>
 											<li>
-												<span>Пластика уздечки верхней, нижней губы. Языка</span>
+												<span>Пломба Tetric N-Ceram</span>
 												<b>2 000,00</b>
 											</li>
 											<li>
-												<span>Вестибулопластика</span>
-												<b>5 000,00</b>
+												<span>Пломба Estelite</span>
+												<b>1 800,00</b>
 											</li>
 											<li>
-												<span>Внутриротовой разрез с дренированием раны</span>
-												<b>1 100,00</b>
-											</li>
-											<li>
-												<span>Иссечение капюшона</span>
-												<b>800,00</b>
+												<span>Постановка временной пломбы</span>
+												<b>270,00</b>
 											</li>
 										</ul>
 									</div>
@@ -838,7 +784,6 @@
 											<li>
 												<span>
 													Атравматичное удаление с сохранением лунки зуба
-													<i>акция</i>
 												</span>
 												<b>3 000,00</b>
 											</li>
@@ -857,7 +802,6 @@
 											<li>
 												<span>
 													Удаление зподвижного постоянного зуба
-													<i>акция</i>
 												</span>
 												<b>900,00</b>
 											</li>
@@ -899,58 +843,90 @@
 								</div>
 								<div class="cost-main-list-wrap">
 									<div class="cost-item">
-										<h3>Хирургия: Удаление зубов</h3>
+										<h3>Имплантология: установка имплантов</h3>
 										<ul class="cost-list">
 											<li>
 												<span>
-													Атравматичное удаление с сохранением лунки зуба
+													Установка ортодонтического винта, миниимпланта
+												</span>
+												<b>10 000,00</b>
+											</li>
+											<li>
+												<span>Установка импланта SnuCon (Ю.Корея)</span>
+												<b>21 000,00</b>
+											</li>
+											<li>
+												<span>
+													Установка импланта SnuCon (Ю.Корея)
 													<i>акция</i>
 												</span>
-												<b>3 000,00</b>
+												<b>15 500,00</b>
 											</li>
 											<li>
-												<span>Удаление молочного зуба</span>
-												<b>700,00</b>
+												<span>Установка имплантата Nobel</span>
+												<b>36 000,00</b>
 											</li>
 											<li>
-												<span>Удаление зуба (сложное) с применением элеватора</span>
-												<b>2 750,00</b>
+												<span>
+													Установка формирователя десны SnuCon (Ю.Корея)
+												</span>
+												<b>4 000,00</b>
 											</li>
 											<li>
-												<span>Удаление зуба (1 степень сложности)</span>
+												<span>
+													Установка формирователя десны SnuCon (Ю.Корея)
+													<i>акция</i>
+												</span>
 												<b>1 550,00</b>
 											</li>
 											<li>
 												<span>
-													Удаление зподвижного постоянного зуба
-													<i>акция</i>
+													Установка формирователя десны Nobel
 												</span>
-												<b>900,00</b>
+												<b>5 000,00</b>
+											</li>
+											<li>
+												<span>
+													Установка импланта AlphaBio (Израиль)
+												</span>
+												<b>17 000,00</b>
+											</li>
+											<li>
+												<span>
+													Установка иформирователя AlphaBio (Израиль)
+												</span>
+												<b>4 000,00</b>
+											</li>
+											<li>
+												<span>
+													Удаление имплантата (сложное)
+												</span>
+												<b>7 000,00</b>
+											</li>
+											<li>
+												<span>
+													Удаление имплантата (простоеое)
+												</span>
+												<b>3 500,00</b>
 											</li>
 										</ul>
 									</div>
 									<div class="cost-item">
-										<h3>Хирургия: Операция на мягких тканях</h3>
+										<h3>Хируркия: костная пластика</h3>
 										<ul class="cost-list">
 											<li>
-												<span>Пластика тяжа слизистой оболочки полости рта</span>
-												<b>3 500,00</b>
-											</li>
-											<li>
-												<span>Пластика уздечки верхней, нижней губы. Языка</span>
-												<b>2 000,00</b>
-											</li>
-											<li>
-												<span>Вестибулопластика</span>
+												<span>Консервация лунки (без стоимости материалов)</span>
 												<b>5 000,00</b>
 											</li>
 											<li>
-												<span>Внутриротовой разрез с дренированием раны</span>
-												<b>1 100,00</b>
+												<span>Односторонний открытый синус лифтинг в области 1-го зуба(без
+													стоимости материалов)</span>
+												<b>21 000,00</b>
 											</li>
 											<li>
-												<span>Иссечение капюшона</span>
-												<b>800,00</b>
+												<span>Односторонний закрытый синус-лифтинг в области одного зуба (без
+													стоимости материалов)</span>
+												<b>10 500,00</b>
 											</li>
 										</ul>
 									</div>
@@ -965,58 +941,134 @@
 								</div>
 								<div class="cost-main-list-wrap">
 									<div class="cost-item">
-										<h3>Хирургия: Удаление зубов</h3>
+										<h3>Ортопедия: Восстановление коронковой части зуба</h3>
 										<ul class="cost-list">
 											<li>
 												<span>
-													Атравматичное удаление с сохранением лунки зуба
-													<i>акция</i>
+													Восстановление коронковой части зуба кор-композитом LUXACORE
+													(Германия)
 												</span>
-												<b>3 000,00</b>
+												<b>4 000,00</b>
 											</li>
 											<li>
-												<span>Удаление молочного зуба</span>
-												<b>700,00</b>
+												<span>Восстановление коронковой части зуба культевой вкладкой из КХС на
+													импортном металле (лабораторным способом)</span>
+												<b>от 4000,00</b>
 											</li>
 											<li>
-												<span>Удаление зуба (сложное) с применением элеватора</span>
-												<b>2 750,00</b>
-											</li>
-											<li>
-												<span>Удаление зуба (1 степень сложности)</span>
-												<b>1 550,00</b>
-											</li>
-											<li>
-												<span>
-													Удаление зподвижного постоянного зуба
-													<i>акция</i>
-												</span>
-												<b>900,00</b>
+												<span>Восстановление коронковой части зуба культевой вкладкой из
+													диоксида циркония</span>
+												<b>от 8 000,00</b>
 											</li>
 										</ul>
 									</div>
 									<div class="cost-item">
-										<h3>Хирургия: Операция на мягких тканях</h3>
+										<h3>Ортопедия: Несъемное протезирование</h3>
 										<ul class="cost-list">
 											<li>
-												<span>Пластика тяжа слизистой оболочки полости рта</span>
-												<b>3 500,00</b>
+												<span>Временное восстановление зуба коронкой из быстротвердеющей
+													пластмассы</span>
+												<b>1 500,00</b>
 											</li>
 											<li>
-												<span>Пластика уздечки верхней, нижней губы. Языка</span>
-												<b>2 000,00</b>
+												<span>Восстановление зуба цельнолитой коронкой</span>
+												<b>4 000,00</b>
 											</li>
 											<li>
-												<span>Вестибулопластика</span>
+												<span>Восстановление зуба металлокерамической коронкой</span>
+												<b>6 000,00</b>
+											</li>
+											<li>
+												<span>Восстановление зуба безметалловой конструкцией по технологии
+													EMAX</span>
+												<b>15 000,00</b>
+											</li>
+											<li>
+												<span>Винир ортопедический</span>
+												<b>15 000,00</b>
+											</li>
+											<li>
+												<span>Восстановление зуба анатомической безметалловой коронкой по
+													технологии CAD/CAM (ZrO2)</span>
+												<b>12 000,00</b>
+											</li>
+										</ul>
+									</div>
+									<div class="cost-item">
+										<h3>Ортопедия: Изготовление пластиночных протезов</h3>
+										<ul class="cost-list">
+											<li>
+												<span>Восстановление зубного ряда полным съемным протезом из базисной
+													пластмассы Фторакс</span>
+												<b>10 000,00</b>
+											</li>
+											<li>
+												<span>Восстановление зубного ряда частичным съемным протезом из базисной
+													пластмассы Фторакс</span>
+												<b>12 000,00</b>
+											</li>
+											<li>
+												<span>Восстановление зубного ряда косметической пластинкой от 1 до 3
+													зубов (Иммедиат-протез) изи базисной пластмассы "Фторакс"</span>
 												<b>5 000,00</b>
 											</li>
 											<li>
-												<span>Внутриротовой разрез с дренированием раны</span>
-												<b>1 100,00</b>
+												<span>Восстановление зубного ряда съемным протезом при полной потере
+													зубов с опорой на вкладки-аттачмены (без учета стоимости
+													аттачменов)</span>
+												<b>20 000,00</b>
 											</li>
 											<li>
-												<span>Иссечение капюшона</span>
-												<b>800,00</b>
+												<span>Восстановление зубного ряда нейлоновым протезом Термосенс</span>
+												<b>20 000,00</b>
+											</li>
+										</ul>
+									</div>
+									<div class="cost-item">
+										<h3>Ортопедия: Изготовление дуговых протезов</h3>
+										<ul class="cost-list">
+											<li>
+												<span>Восстановление зубного ряда дуговым протезом с кламерной системой
+													фиксации</span>
+												<b>30 000,00</b>
+											</li>
+											<li>
+												<span>Восстановление зубного ряда дуговым протезом с замковой системой
+													фиксации (односторонний)</span>
+												<b>40 000,00</b>
+											</li>
+										</ul>
+									</div>
+									<div class="cost-item">
+										<h3>Ортопедия: Протезирование на имплантах</h3>
+										<ul class="cost-list">
+											<li>
+												<span>
+													Восстановление металлокерамической коронкой с опрой на имплантат
+													SnuCon
+													<i>акция</i>
+												</span>
+												<b>15 000,00</b>
+											</li>
+											<li>
+												<span>Восстановление металлокерамической коронкой с опрой на имплантат
+													NOBEL</span>
+												<b>35 000,00</b>
+											</li>
+											<li>
+												<span>Временная пластмассовая коронка на имплантат</span>
+												<b>150 000,00</b>
+											</li>
+											<li>
+												<span>Изготовление условно-съемного протеза с опорой на имплантаты
+													(балочная система фиксации, на 4х имплантатах, все включено)</span>
+												<b>100 000,00</b>
+											</li>
+											<li>
+												<span>Изготовление условно-съемного протеза с опорой на имплантаты
+													(замковая система фиксации, шариковые аттачмены, на 2 имплантатах,
+													все включено)</span>
+												<b>---</b>
 											</li>
 										</ul>
 									</div>
@@ -1031,58 +1083,72 @@
 								</div>
 								<div class="cost-main-list-wrap">
 									<div class="cost-item">
-										<h3>Хирургия: Удаление зубов</h3>
+										<h3>Обследование</h3>
 										<ul class="cost-list">
 											<li>
 												<span>
-													Атравматичное удаление с сохранением лунки зуба
-													<i>акция</i>
+													Подготовительный этап: снятие слепков. Отливка моделей, расчет
+													постановки
 												</span>
 												<b>3 000,00</b>
-											</li>
-											<li>
-												<span>Удаление молочного зуба</span>
-												<b>700,00</b>
-											</li>
-											<li>
-												<span>Удаление зуба (сложное) с применением элеватора</span>
-												<b>2 750,00</b>
-											</li>
-											<li>
-												<span>Удаление зуба (1 степень сложности)</span>
-												<b>1 550,00</b>
-											</li>
-											<li>
-												<span>
-													Удаление зподвижного постоянного зуба
-													<i>акция</i>
-												</span>
-												<b>900,00</b>
 											</li>
 										</ul>
 									</div>
 									<div class="cost-item">
-										<h3>Хирургия: Операция на мягких тканях</h3>
+										<h3>Ортодонтия: Фиксация современной несъемной ортодонтической техники
+											(брекет-системой)</h3>
 										<ul class="cost-list">
 											<li>
-												<span>Пластика тяжа слизистой оболочки полости рта</span>
-												<b>3 500,00</b>
+												<span>
+													Фиксация лигатурной метал. брекет-системы Thino на одну челюсть
+													<i>акция</i>
+												</span>
+												<b>8 000,00</b>
 											</li>
 											<li>
-												<span>Пластика уздечки верхней, нижней губы. Языка</span>
-												<b>2 000,00</b>
+												<span>
+													Фиксация лигатурной сапфировой брекет-системы на один зубной ряд.
+													<i>акция</i>
+												</span>
+												<b>30 000,00</b>
 											</li>
 											<li>
-												<span>Вестибулопластика</span>
-												<b>5 000,00</b>
+												<span>
+													Фиксация безлигатурной металлической брекет системы Damon Q/H4, на
+													одину челюсть
+												</span>
+												<b>33 000,00</b>
 											</li>
 											<li>
-												<span>Внутриротовой разрез с дренированием раны</span>
-												<b>1 100,00</b>
+												<span>
+													Фиксация безлигатурной керамической брекет-системы Damon Clear на
+													одну челюсть
+												</span>
+												<b>45 000,00</b>
+											</li>
+										</ul>
+									</div>
+									<div class="cost-item">
+										<h3>Снятие брекет - системы. Ретейнеры</h3>
+										<ul class="cost-list">
+											<li>
+												<span>
+													Фиксация несъемного ретейнера (1 зуб)
+												</span>
+												<b>600,00</b>
 											</li>
 											<li>
-												<span>Иссечение капюшона</span>
-												<b>800,00</b>
+												<span>
+													Удаление несъемного ретейнера (1 зуб)
+												</span>
+												<b>400,00</b>
+											</li>
+											<li>
+												<span>
+													Снятие брекет - системы с одной челюсти (шлифовка, полировка
+													вестибулярной поверхности зубов)
+												</span>
+												<b>4 000,00</b>
 											</li>
 										</ul>
 									</div>
@@ -1338,33 +1404,37 @@
 						<div class="questions-item">
 							<div class="open_toggle active">Делает ли стоматология документы для налогового вычета?
 							</div>
-							<div class="block_toggle">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
-								сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а
-								начинающему оратору отточить навык публичных выступлений в домашних условиях. При
-								создании генератора мы использовали небезизвестный универсальный код речей. Текст
-								генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что
-								позволяет сделать текст более привлекательным и живым для визуально-слухового
-								восприятия.</div>
+							<div class="block_toggle">Этот вопрос волнует многих пациентов, так как лечение зубов
+								достаточно дорогостоящее вложение. Вычет за услуги стоматологии, пациент может получить
+								от государства или работодателя, вернув тем самым часть материальных средств,
+								израсходованных им на лечение. В этом случае компенсация будет представлять собой
+								единовременную денежную выплату в размере 13% от расходов на предоставленные услуги. При
+								расчете налогового вычета учитывается стоимость лечения и величина перечисленного
+								налога. Выплата от ФНС переводится гражданину в установленном порядке по окончании года,
+								в котором была произведена оплата за услуги стоматологической клиники. Всю необходимую
+								информацию можно узнать, обратившись в нашу клинику «ОМЕГА». Мы предоставим, все
+								необходимые документы, которые в дальнейшем вам пригодятся для проведения лечения и
+								помогут вернуть часть денежных средств обратно.</div>
 						</div>
 						<div class="questions-item">
 							<div class="open_toggle">Лечить зубы больно?</div>
-							<div style="display: none;" class="block_toggle">Сайт рыбатекст поможет дизайнеру,
-								верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста
-								рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в
-								домашних условиях. При создании генератора мы использовали небезизвестный универсальный
-								код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в
-								абзаце, что позволяет сделать текст более привлекательным и живым для
-								визуально-слухового восприятия.</div>
+							<div style="display: none;" class="block_toggle">Страх, естественное чувство каждого
+								пациента, который оказывается в кабинете стоматологической клинике. Однако сейчас
+								стоматология продвинулась далеко вперед, благодаря современным технологиям
+								обезболивания. Дискомфорт во время лечения практически сводится к нолю, что делает
+								лечение не таким страшным, а даже в чем то приятным. Сама процедура обезболивания
+								проходит быстро, через небольшой прокол десны. Если врач грамотно подберет анестезию,
+								пломбирование зуба пройдет безболезненно.</div>
 						</div>
 						<div class="questions-item">
 							<div class="open_toggle">Можно ли лечить зубы беременным в вашей клинике?</div>
-							<div style="display: none;" class="block_toggle">Сайт рыбатекст поможет дизайнеру,
-								верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста
-								рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в
-								домашних условиях. При создании генератора мы использовали небезизвестный универсальный
-								код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в
-								абзаце, что позволяет сделать текст более привлекательным и живым для
-								визуально-слухового восприятия.</div>
+							<div style="display: none;" class="block_toggle">Беременность не является абсолютным
+								противопоказанием к проведению каких-либо стоматологических манипуляций. Однако
+								пациентка должна предупредить врача о своем положении, а также назвать точный срок
+								беременности. Это позволяет врачу подобрать правильное лечение, не нанося при этом вреда
+								будущей матери и плоду. Однако стоит помнить, что любое лечение должно производиться
+								только с согласием вашего врача акушера – гинеколога, который ведет вашу беременность на
+								протяжении всего срока.</div>
 						</div>
 					</div>
 				</div>
@@ -1376,9 +1446,9 @@
 						<p>Оставьте свой номер телефона в форме ниже и получите бесплатную консультацию! Наши врачи с
 							практическим опытом ответят на все вопросы и предложат оптимальный план лечения зубов!</p>
 					</div>
-					<form action="#" class="contacts-form main-form">
+					<form id="form2" action="#" class="contacts-form main-form">
 						<div class="main-form-wrap">
-							<input class="input" type="tel" required placeholder="Введите номер телефона">
+							<input name="tel" class="input" type="tel" required placeholder="Введите номер телефона">
 							<button type="submit" class="btn2">Отправить</button>
 						</div>
 						<b>Нажимая "записаться на бесплатный прием", <br> вы даете согласие на “обработку своих
@@ -1440,14 +1510,18 @@
 		</footer>
 	</div>
 	<div class="hidden">
+		<div class="pop" id="pop">
+			Спасибо! <br> Ваша заявка принята
+		</div>
 		<div class="popup1" id="popup1">
 			<div class="popup1-wrap">
 				<h2>Записаться на бесплатный прием</h2>
 				<h3>Заполните форму ниже и мы с Вами свяжемся в ближайшее время</h3>
-				<form action="#" class="popup1-form main-form">
+				<form action="#" class="popup1-form main-form" id="form3">
 					<div class="main-form-wrap">
 						<label class="label">
-							<input class="input input-tel" type="tel" required placeholder="+7 (___) ___-____">
+							<input name="tel" class="input input-tel" type="tel" required
+								placeholder="+7 (___) ___-____">
 						</label>
 						<button type="submit" class="btn2">Записаться</button>
 					</div>
@@ -1487,10 +1561,11 @@
 			<div class="popup2-container2">
 				<h2>Записаться на приём</h2>
 				<div class="popup2-form-wrap">
-					<form action="#" class="popup2-form main-form">
+					<form action="#" class="popup2-form main-form" id="form4">
 						<div class="main-form-wrap">
 							<label class="label">
-								<input class="input input-tel" type="tel" required placeholder="+7 (___) ___-____">
+								<input name="tel" class="input input-tel" type="tel" required
+									placeholder="+7 (___) ___-____">
 							</label>
 							<button type="submit" class="btn2">Записаться</button>
 						</div>
